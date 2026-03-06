@@ -68,7 +68,7 @@ fitbuddy/
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/sohamkadu17/GenAI_project
 cd GenAI_project
 ```
 
