@@ -16,7 +16,7 @@ if not _api_key:
     raise EnvironmentError("GEMINI_API_KEY is not set in the .env file.")
 
 _client = genai.Client(api_key=_api_key)
-_PRO_MODEL = "gemini-1.5-flash"
+_PRO_MODEL = "gemini-2.0-flash"
 
 
 def _extract_json(text: str) -> dict:

@@ -14,7 +14,7 @@ if not _api_key:
     raise EnvironmentError("GEMINI_API_KEY is not set in the .env file.")
 
 _client = genai.Client(api_key=_api_key)
-_FLASH_MODEL = "gemini-1.5-flash"
+_FLASH_MODEL = "gemini-2.0-flash"
 
 
 def generate_nutrition_tip_with_flash(goal: str) -> str:

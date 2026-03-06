@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 _client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
-_PRO_MODEL = "gemini-1.5-pro"
+_PRO_MODEL = "gemini-2.0-flash"
 
 
 def _extract_json(text: str) -> dict:
